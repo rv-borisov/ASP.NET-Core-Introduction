@@ -1,0 +1,16 @@
+﻿@model List<string>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div>
+        <form method="post" asp-action="Index">
+            <input asp-for="@Model[0]"/>
+            <input asp-for="@Model[1]"/>
+
+            <input type="submit" value="Отправить"/>
+        </form>
+    </div>
+</div>

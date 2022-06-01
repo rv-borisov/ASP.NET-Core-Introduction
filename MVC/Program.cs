@@ -7,13 +7,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ASP.NET_Core_Example
+namespace MVC
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            // «а ширмой происходит создание и запуск Host
             CreateHostBuilder(args).Build().Run();
         }
 
